@@ -1,6 +1,7 @@
-#include <iostream>
-
-int main() { 
-    std::cout << "Benvengit initue le monde !" << std::endl;
-    return 0; 
+// Affiche un message de bienvenue
+#include "fonction-bienvenue.h"
+int main()
+{
+afficherBienvenue();
+return 0;
 }
